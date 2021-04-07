@@ -1,2 +1,39 @@
 /**app.wxss**/
-
+@charset "UTF-8";
+@keyframes Flicker{
+  0%,50%,100%{opacity: 1;}
+  25%{opacity: 0;}
+}
+@keyframes mymove{
+  from {top:0px;}
+  to {top:200px;}
+}
+@keyframes mymove
+{
+  0%   {top:0px;}
+  25%  {top:200px;}
+  50%  {top:100px;}
+  75%  {top:200px;}
+  100% {top:0px;}
+}
+@keyframes mymove
+{
+  0%{top:0px; background:red; width:100px;}
+  100% {top:200px; background:yellow; width:300px;}
+}
+/* animation: name duration timing-function delay iteration-count direction; */
+.head{
+  width: 400rpx;
+  height: 200rpx;
+  background: red;
+  position: relative;
+  animation:Flicker 1s linear 0 infinite normal;
+  animation-name:Flicker;/* 规定需要绑定到选择器的 keyframe 名称。 */
+  animation-duration:1s;/* 规定完成动画所花费的时间，以秒或毫秒计。 */
+  animation-timing-function:linear;/* 规定动画的速度曲线。 */
+  animation-delay:0s;/* 规定在动画开始之前的延迟。 */
+  animation-iteration-count:infinite;/* 规定动画应该播放的次数。 */
+  animation-direction:normal;/* 规定是否应该轮流反向播放动画。 */
+  animation-fill-mode:none;/* 规定元素在不播放动画时的样式（在开始前、结束后，或两者同时）。 */
+  animation-play-state:running;/* 规定动画是运行还是暂停。 */
+}

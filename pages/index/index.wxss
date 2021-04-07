@@ -1,1 +1,31 @@
 /**index.wxss**/
+.home{
+  padding-left: 30rpx;
+  color: #000;
+  font-size: 34rpx;
+  line-height: 34rpx;
+  background: #E0E0E0;
+  padding-bottom: 20rpx;
+  padding-top: 30rpx;
+}
+.inp{
+  box-sizing: border-box;
+  border: 1rpx solid #B8B8B8;
+  border-radius: 10rpx;
+  height: 88rpx;
+  width: 690rpx;
+  margin: 12rpx 0 30rpx 0;
+  padding-left:30rpx ;
+  background: #fff;
+}
+.btn_box{
+  /* width: 100%; */
+  padding-top: 20rpx;
+}
+.btn{
+  /* width: 690rpx; */
+  /* height: 88rpx; */
+  background: #1272DD;
+  color: #fff;
+  margin-bottom: 20rpx;
+}

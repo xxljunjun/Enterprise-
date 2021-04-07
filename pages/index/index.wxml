@@ -1,6 +1,45 @@
 <!--index.wxml-->
 <view class="home">
-  <view class="head">
-    
-  </view>
+  <form catchsubmit="formSubmit" catchreset="formReset">
+    <!-- 客户 -->
+    <view class="customer">
+      <view>客户</view>
+      <input type="text" name="customer" class="inp" placeholder="请输入"/>
+    </view>
+    <!-- 联系电话 -->
+    <view class="telphone">
+      <view>联系电话</view>
+      <input type="text" name="telphone" class="inp" placeholder="请输入"/>
+    </view>
+    <!--  Vin码 -->
+    <view class="vin">
+      <view>Vin码</view>
+      <input type="text" name="vin" class="inp" placeholder="请输入"/>
+    </view>
+    <!--  车牌 -->
+    <view class="license">
+      <view>车牌</view>
+      <input type="text" name="license" class="inp" placeholder="请输入"/>
+    </view>
+    <!--  里程数 -->
+    <view class="mileage">
+      <view>里程数</view>
+      <input type="text" name="mileage" class="inp" placeholder="请输入"/>
+    </view>
+    <!--  车龄 -->
+    <view class="vehicleAge">
+      <view>车龄</view>
+      <input type="text" name="vehicleAge" class="inp" placeholder="请输入"/>
+    </view>
+    <!--  车型 -->
+    <view class="model">
+      <view>车型</view>
+      <input type="text" name="model" class="inp" placeholder="请输入"/>
+    </view>
+    <view class="btn_box">
+      <button form-type="submit" class="btn">保存</button>
+      <button formType="reset" class="btn">取消</button>
+    </view>
+  </form>
 </view>
+
