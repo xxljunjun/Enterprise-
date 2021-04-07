@@ -29,3 +29,15 @@
   color: #fff;
   margin-bottom: 20rpx;
 }
+.picker_vehicleAge{
+  width: 690rpx;
+  height: 88rpx;
+  box-sizing: border-box;
+  border: 1rpx solid #B8B8B8;
+  border-radius: 10rpx;
+  background: #fff;
+  margin: 12rpx 0 30rpx 0;
+  color: #000;
+  padding-top: 20rpx;
+  padding-left: 30rpx;
+}

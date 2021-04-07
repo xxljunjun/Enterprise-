@@ -5,14 +5,7 @@ Page({
    * 页面的初始数据
    */
   data: {
-    
-  },
-  formSubmit:function(e){
-    console.log(e.detail.value)
-    
-  },
-  formReset:function(){
-    console.log("取消了")
+    multiArray: [['无脊柱动物', '脊柱动物'], ['扁性动物', '线形动物', '环节动物', '软体动物', '节肢动物'], ['猪肉绦虫', '吸血虫']],
   },
   /**
    * 生命周期函数--监听页面加载
